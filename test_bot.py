@@ -1,12 +1,15 @@
 import telebot
 import requests
 from telebot import types
+import time
 
 token = ''
 
 API = ''
 
 bot = telebot.Teleot(token)
+def oybek_brach():
+    print('oybek_brach')
 
 @bot.message_handler(commands=['start'])
 def start(message):
