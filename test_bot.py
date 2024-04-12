@@ -6,7 +6,7 @@ import time
 token = ''
 
 API = ''
-
+szdgfthgyjhkl;
 bot = telebot.Teleot(token)
 def oybek_brach():
     print('oybek_brach')
